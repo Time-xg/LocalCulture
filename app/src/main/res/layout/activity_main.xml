@@ -24,6 +24,7 @@
         >
 
         <LinearLayout
+            android:id="@+id/home_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -46,9 +47,32 @@
                 android:text="首页"/>
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/find_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
 
+            <Button
+                android:id="@+id/find"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/home_selector"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:id="@+id/find_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:text="发现"/>
+        </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/guide_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -72,6 +96,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/my_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
